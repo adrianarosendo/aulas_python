@@ -37,7 +37,7 @@ print(type(c))
 
 
 # String
-name = 'Colégio São Mauro'
+name = 'Sou um texto'
 print(name)
 print(type(name))
 
