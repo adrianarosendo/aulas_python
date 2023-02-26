@@ -1,13 +1,9 @@
-# %%
-dir(str)
+#Trabalhando com Strings
+
 nome = 'Saulo Pedro'
 
 print(nome[0])
-# nome[0] = 'P'
 
-# 'marca d'água'
-#"Dias D'Avila" == 'Dias D\'Avila'
-#"Teste \" funciona!"
 texto = 'Texto entre apostrófos pode ter "aspas"'
 
 doc = """Texto com múltiplas

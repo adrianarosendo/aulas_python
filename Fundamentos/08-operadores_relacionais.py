@@ -11,6 +11,10 @@ print(A <= B)
 
 print(A == C) # O que você acha que vai acontecer aqui?
 
+print(True and True)
+print(True and False)
+print(False and False)
+
 # Operador	Descrição	        Exemplo
 # ==	    Igual	            (A == B) é false
 # !=	    Não igual	        (A != B) é true
