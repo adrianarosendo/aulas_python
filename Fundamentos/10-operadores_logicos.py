@@ -17,5 +17,6 @@ print(not True)
 print(not False)
 
 #Operações Bit-a-bit
+
 print(True & True)
 print(False | True)
