@@ -9,3 +9,13 @@ print(False and False)
 print(True or True)
 print(True or False)
 print(False or False)
+print(False or False)
+
+#Operador de negação
+
+print(not True)
+print(not False)
+
+#Operações Bit-a-bit
+print(True & True)
+print(False | True)
