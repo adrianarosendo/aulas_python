@@ -1,3 +1,4 @@
+#Verifica se a pessoa é maior ou menor de idade
 idade = int(input("Insira sua idade: "))
 
 if idade >= 18:
@@ -5,7 +6,7 @@ if idade >= 18:
 else:
     print("Você é menor de idade!")
 
-
+#Calcula a média do aluno a partir de 3 notas digitadas pelo usuário
 nota1 = float(input("Insira sua nota 1: "))
 nota2 = float(input("Insira sua nota 2: "))
 nota3 = float(input("Insira sua nota 3: "))
