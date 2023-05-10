@@ -1,4 +1,6 @@
-numero = '127957'
+
+
+numero = input("Insira um número: ")
 soma_total= 0
 
 for i in range(0, len(numero)):
