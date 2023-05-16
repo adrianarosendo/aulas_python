@@ -2,6 +2,7 @@ import math
 from datetime import datetime, timedelta
 import itertools
 import random
+from colorama import Fore, Back, Style
 
 #número de pi
 print(math.pi)
@@ -31,3 +32,8 @@ valor = ["sim", "não"]
 k = 1
  
 print(random.SystemRandom().sample(valor, k))
+
+print(Fore.BLUE, "Texto azul")
+print(Fore.LIGHTBLACK_EX, "Texto light black")
+print(Back.BLACK, Fore.WHITE, "Texto fundo preto cor branca")
+print(Style.RESET_ALL)
