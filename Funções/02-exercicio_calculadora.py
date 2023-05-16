@@ -9,7 +9,7 @@ def chamada_calculadora(operacao, numero1, numero2):
     elif operacao == 2:
         print(multiplicacao(numero1, numero2)) 
     elif operacao == 3:
-        print(multiplicacao(numero1, numero2)) 
+        print(divisao(numero1, numero2)) 
     else:
         print("Nenhuma operação válida detectada, tente novamente.")
         inicio_calculadora()
