@@ -1,0 +1,3 @@
+Adriana; professora; 34
+Amélia; advogada; 32
+Marcos; estudante; 17
