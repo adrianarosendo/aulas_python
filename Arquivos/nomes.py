@@ -34,3 +34,8 @@ for linha in linhas:
     media = (soma) / len(linhas)
     
 print(media)
+
+#como escrever em um arquivo
+arquivo = open('nomes.txt', 'a')
+arquivo.write('Thiago; estudante; 15')
+arquivo.close()

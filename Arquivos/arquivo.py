@@ -1,4 +1,4 @@
-
+# pylint: disable=unspecified-encoding
 #cria um arquivo caso não exista
 #ou substitui o atual
 arquivo = open('arquivo.txt', 'w')
@@ -11,3 +11,4 @@ arquivo = open('arquivo.txt', 'r')
 #modo somente escrita
 arquivo = open('arquivo.txt', 'x')
 arquivo.close()
+
