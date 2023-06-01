@@ -33,6 +33,7 @@ k = 1
  
 print(random.SystemRandom().sample(valor, k))
 
+#mudança de texto e cores
 print(Fore.BLUE, "Texto azul")
 print(Fore.LIGHTBLACK_EX, "Texto light black")
 print(Back.BLACK, Fore.WHITE, "Texto fundo preto cor branca")
