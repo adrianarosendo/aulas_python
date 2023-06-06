@@ -3,7 +3,7 @@ import pandas as pd
 
 df = pd.read_csv("https://pycourse.s3.amazonaws.com/bike-sharing.csv")
 
-print("Tamanho do df", df.size)
+print("Tamanho do df", df.shape)
 
 mean_df = df['windspeed'].mean()
 print("média da coluna windspeed", mean_df)
@@ -26,6 +26,10 @@ print("média por estação: \n",mean_estações)
 mean_horario= df.groupby('hour').mean().sort_values(["total_count","hour"],
     ascending=True).filter(["hour", "total_count"])
 print("média de locação por horário:\n ",mean_horario)
+
+mean_dia_semana= df.groupby('weekday').mean().sort_values(["total_count","weekday"],
+    ascending=True)
+print("média de locação por horário dia semana:\n ",mean_dia_semana)
 
 mean_horario_semana= df.query('weekday==3').groupby('hour').mean().sort_values(["total_count","hour"],
     ascending=True)
