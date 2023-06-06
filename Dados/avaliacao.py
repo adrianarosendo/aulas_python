@@ -27,6 +27,10 @@ mean_horario= df.groupby('hour').mean().sort_values(["total_count","hour"],
     ascending=True).filter(["hour", "total_count"])
 print("média de locação por horário:\n ",mean_horario)
 
-mean_horario_semana= df[(df['weekday']=='3')].groupby('weekday').mean().sort_values(["total_count","hour"],
+mean_horario_semana= df.query('weekday==3').groupby('hour').mean().sort_values(["total_count","hour"],
     ascending=True)
-print("média de locação por horário semana:\n ",mean_horario_semana)
+print("média de locação por horário semana quarta:\n ",mean_horario_semana)
+
+mean_horario_semana= df.query('weekday==6').groupby('hour').mean().sort_values(["total_count","hour"],
+    ascending=True)
+print("média de locação por horário semana sabado:\n ",mean_horario_semana)
