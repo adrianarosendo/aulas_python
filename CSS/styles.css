@@ -16,6 +16,8 @@ h2{
 #primeiro{
     background-color: black;
     color: bisque;
+    position: static;
+    border: 5px solid blue;
     font-size: 50px;
 }
 

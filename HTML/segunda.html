@@ -8,6 +8,23 @@
 </head>
 <body>
     <a href="index.html">Clique aqui</a>
+    <input onchange="change()" type="text" id="ip">
+    <button onclick="clicar()">Outro clique!</button>
+    <img onmouseout="mouseOut()" src="img/5c7297e2d1eba308194c59b13008edcb.jpg" id="img2">
+    <script>
+
+        function change(){
+            alert("Algo mudou!")  
+        }
+
+        function clicar(){
+            alert(document.getElementById("ip").value)
+        }
+
+        function mouseOut(){
+            document.getElementById("img2").src = "img/colegio.jpg"
+        }
+    </script>
     
 </body>
 </html>
