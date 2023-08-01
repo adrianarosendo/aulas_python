@@ -14,6 +14,6 @@ lista_frutas.sort()
 
 print(lista_frutas)
 
-print(lista_frutas[0])
-print(lista_frutas[-1])
+print(f"Primeira fruta: {lista_frutas[0]}")
+print(f"Última fruta: {lista_frutas[-1]}")
 
