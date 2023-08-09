@@ -15,6 +15,8 @@ pessoa1.comer("laranja")
 pessoa1.falar("Olá classe!")
 pessoa1.parar_de_comer()
 pessoa1.falar("Olá classe!")
+pessoa1.ano_de_nascimento()
+print(pessoa1.gera_id())
 
 #print(pessoa1.nome, p2.nome)
 
