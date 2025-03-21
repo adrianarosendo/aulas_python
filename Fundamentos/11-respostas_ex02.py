@@ -1,6 +1,7 @@
 
 
 #Estudos
+print("Digite 1 para sim e 2 para não:")
 estudo_terca = int(input("Você estudou terça?"))
 estudo_quinta = int(input("Você estudou quinta?"))
 estudo_terca = bool(estudo_terca)

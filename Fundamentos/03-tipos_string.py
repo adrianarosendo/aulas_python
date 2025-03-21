@@ -24,42 +24,43 @@ print(nome[4:])
 print(nome[-5:])
 print(nome[:3])
 print(nome[2:5])
-
-numeros = '1234567890'
-
-print(numeros[::])
-print(numeros[::2])
-print(numeros[1::2])
-print(numeros[::-1])
-print(numeros[::-2])
-
 print(nome[::-1])
 
 frase = 'Python é uma linguagem excelente'
-#'py' not in frase
-#'ing' in frase
-len(frase)
-frase.lower()
+print(len(frase))
+frase = frase.lower()
 print(frase)
 frase = frase.upper()
 print(frase)
 
-frase.split()
-frase.split('E')
+frase = frase.split()
+print(frase)
+frase = 'Python é uma linguagem excelente'
+frase = frase.split('e')
+print(frase)
 
-# dir(str)
-# help(str.center)
-
-# %%
 a = '123'
 b = ' de Oliveira 4'
 print(a + b)
-a.__add__(b)
-str.__add__(a, b)
 
-len(a)
-a.__len__()
-#'1' in a
-a.__contains__('1')
 
-dir(str)
+print(len(a))
+
+
+print(a.__contains__('1'))
+
+lista_de_frutas = ["banana", "laranja", "uva", "maça"]
+lista_de_frutas.sort()
+print(lista_de_frutas)
+lista_de_frutas.reverse()
+print(lista_de_frutas)
+lista_de_frutas.append("limão")
+print(lista_de_frutas)
+print(lista_de_frutas.__contains__('banana'))
+print(lista_de_frutas.__contains__('manga'))
+lista_de_frutas.remove('maça')
+print(lista_de_frutas)
+lista_de_frutas.pop()
+print(lista_de_frutas)
+print(lista_de_frutas.count('banana'))
+print(len(lista_de_frutas))

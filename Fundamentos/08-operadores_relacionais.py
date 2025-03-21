@@ -20,3 +20,4 @@ print(A == C) # O que você acha que vai acontecer aqui?
 # <	        Menor que	        (A < B) é true
 # >=	    Maior ou igual que	(A >= B) é false
 # <=	    Menor ou igual que	(A <= B) é true
+
